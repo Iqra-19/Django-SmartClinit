@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}Login | Smart Clinic{% endblock %}
+
+{% block content %}
+
+<section class="login-section">
+
+    <div class="login-container">
+
+        <div class="login-header">
+
+            <p class="section-label">SMART CLINIC</p>
+
+            <h1>Welcome Back</h1>
+
+            <p>
+                Sign in to access your clinic dashboard.
+            </p>
+
+        </div>
+
+
+        <form class="login-form">
+
+            <div class="form-group">
+
+                <label for="email">Email</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="password">Password</label>
+
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter your password"
+                >
+
+            </div>
+
+
+            <div class="login-options">
+
+                <label>
+                    <input type="checkbox" name="remember">
+                    Remember me
+                </label>
+
+                <a href="#">Forgot password?</a>
+
+            </div>
+
+
+            <button type="submit" class="btn btn-primary login-submit">
+                Login
+            </button>
+
+        </form>
+
+
+        <div class="login-footer">
+
+            <p>
+                Don't have an account?
+                <a href="#">Contact the clinic</a>
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}

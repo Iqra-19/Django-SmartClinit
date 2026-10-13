@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+{% block title %}Services | Smart Clinic{% endblock %}
+
+{% block content %}
+
+<!-- Page Hero -->
+<section class="page-hero">
+
+    <div class="container">
+
+        <p class="section-label">OUR SERVICES</p>
+
+        <h1>Healthcare Services Designed Around You</h1>
+
+        <p>
+            Smart Clinic brings different healthcare services
+            together in one organized environment.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- Services -->
+<section class="services-section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <p class="section-label">WHAT WE PROVIDE</p>
+
+            <h2>Our Healthcare Services</h2>
+
+            <p>
+                Professional healthcare services supported by
+                an organized clinic management system.
+            </p>
+
+        </div>
+
+
+        <div class="service-grid">
+
+            <div class="service-card">
+
+                <h3>General Consultation</h3>
+
+                <p>
+                    Consultation for common health concerns,
+                    routine checkups and general medical needs.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <h3>Cardiology</h3>
+
+                <p>
+                    Specialized consultation and management
+                    for heart-related health conditions.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <h3>Pediatrics</h3>
+
+                <p>
+                    Healthcare services focused on children's
+                    health, growth and development.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <h3>Dermatology</h3>
+
+                <p>
+                    Diagnosis and treatment for common
+                    skin, hair and related conditions.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <h3>Dental Care</h3>
+
+                <p>
+                    Basic dental consultation and oral
+                    healthcare services.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <h3>Diagnostics</h3>
+
+                <p>
+                    Support for diagnostic services and
+                    organized medical information.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+<section class="cta-section">
+
+    <div class="container cta-content">
+
+        <h2>Looking for the Right Care?</h2>
+
+        <p>
+            Get connected with the appropriate healthcare
+            service through Smart Clinic.
+        </p>
+
+        <a href="{% url 'contact' %}" class="btn btn-light">
+            Contact Clinic
+        </a>
+
+    </div>
+
+</section>
+
+{% endblock %}

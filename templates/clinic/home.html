@@ -1,0 +1,213 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Home
+{% endblock  %}
+
+{% block content %}
+    
+<section class="hero">
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <p class="hero-label">SMART CLINIC MANAGEMENT</p>
+
+            <h1>
+                Better Healthcare,
+                <span>Better Management.</span>
+            </h1>
+
+            <p>
+                A simple and organized clinic management system
+                connecting doctors, receptionists and patients
+                in one place.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">
+                    Book Appointment
+                </a>
+
+                <a href="{% url 'services' %}" class="btn btn-secondary">
+                    Explore Services
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Services Section -->
+<section class="services-section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <p class="section-label">WHAT WE OFFER</p>
+
+            <h2>Our Healthcare Services</h2>
+
+            <p>
+                Quality healthcare services designed around
+                patient needs.
+            </p>
+        </div>
+
+
+        <div class="service-grid">
+
+            <div class="service-card">
+                <h3>General Consultation</h3>
+
+                <p>
+                    Professional consultation for common
+                    health concerns and routine checkups.
+                </p>
+            </div>
+
+
+            <div class="service-card">
+                <h3>Cardiology</h3>
+
+                <p>
+                    Specialized consultation and care for
+                    heart-related conditions.
+                </p>
+            </div>
+
+
+            <div class="service-card">
+                <h3>Pediatrics</h3>
+
+                <p>
+                    Healthcare services focused on the
+                    health and development of children.
+                </p>
+            </div>
+
+
+            <div class="service-card">
+                <h3>Dermatology</h3>
+
+                <p>
+                    Professional diagnosis and treatment
+                    for skin-related conditions.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Why Choose Us -->
+<section class="why-section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <p class="section-label">WHY SMART CLINIC</p>
+
+            <h2>Designed for Better Clinic Management</h2>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <div class="feature-item">
+                <h3>Easy Appointments</h3>
+
+                <p>
+                    Manage appointments efficiently and
+                    reduce scheduling confusion.
+                </p>
+            </div>
+
+
+            <div class="feature-item">
+                <h3>Organized Records</h3>
+
+                <p>
+                    Keep patient medical information
+                    organized and accessible.
+                </p>
+            </div>
+
+
+            <div class="feature-item">
+                <h3>Connected Care</h3>
+
+                <p>
+                    Give doctors, staff and patients
+                    access to the information they need.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- About Section -->
+<section class="about-section">
+
+    <div class="container about-content">
+
+        <div>
+            <p class="section-label">ABOUT SMART CLINIC</p>
+
+            <h2>Healthcare Management Made Simple</h2>
+        </div>
+
+        <div>
+            <p>
+                Smart Clinic provides a centralized system
+                for managing patients, doctors, appointments,
+                medical records and prescriptions.
+            </p>
+
+            <p>
+                The goal is simple: reduce administrative
+                complexity and allow healthcare professionals
+                to focus more on patient care.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+<section class="cta-section">
+
+    <div class="container cta-content">
+
+        <h2>Need a Doctor?</h2>
+
+        <p>
+            Schedule your appointment and take the next
+            step toward better healthcare management.
+        </p>
+
+        <a href="#" class="btn btn-light">
+            Book an Appointment
+        </a>
+
+    </div>
+
+</section>
+
+
+{% endblock  %}

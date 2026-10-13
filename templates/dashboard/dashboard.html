@@ -1,0 +1,124 @@
+{% extends "dashboard_base.html" %}
+
+{% block title %}
+Dashboard | Smart Clinic
+{% endblock %}
+
+
+{% block page_heading %}
+Dashboard
+{% endblock %}
+
+
+{% block content %}
+
+<div class="dashboard-welcome">
+
+    <p class="section-label">
+        SMART CLINIC
+    </p>
+
+    <h2>
+        Welcome to your dashboard
+    </h2>
+
+    <p>
+        Manage clinic activities from one centralized system.
+    </p>
+
+</div>
+
+
+<div class="dashboard-cards">
+
+    <div class="dashboard-card">
+
+        <h3>Patients</h3>
+
+        <p>
+            Manage patient information and medical records.
+        </p>
+
+        <span class="dashboard-card-value">
+            --
+        </span>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <h3>Appointments</h3>
+
+        <p>
+            View and manage clinic appointments.
+        </p>
+
+        <span class="dashboard-card-value">
+            --
+        </span>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <h3>Medical Records</h3>
+
+        <p>
+            Access organized patient medical information.
+        </p>
+
+        <span class="dashboard-card-value">
+            --
+        </span>
+
+    </div>
+
+
+    <div class="dashboard-card">
+
+        <h3>Prescriptions</h3>
+
+        <p>
+            Manage patient prescriptions and medicines.
+        </p>
+
+        <span class="dashboard-card-value">
+            --
+        </span>
+
+    </div>
+
+</div>
+
+
+<section class="dashboard-section">
+
+    <div class="dashboard-section-header">
+
+        <div>
+            <p class="section-label">
+                TODAY
+            </p>
+
+            <h2>Upcoming Activity</h2>
+        </div>
+
+    </div>
+
+
+    <div class="dashboard-empty">
+
+        <h3>No activity yet</h3>
+
+        <p>
+            Appointments and other clinic activities
+            will appear here.
+        </p>
+
+    </div>
+
+</section>
+
+{% endblock %}

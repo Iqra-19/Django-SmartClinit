@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+{% block title %}About | Smart Clinic{% endblock %}
+
+{% block content %}
+
+<section class="page-hero">
+    <div class="container">
+        <p class="section-label">ABOUT SMART CLINIC</p>
+
+        <h1>Healthcare Management Made Simple</h1>
+
+        <p>
+            Smart Clinic is designed to make everyday clinic
+            operations organized, efficient and easier to manage.
+        </p>
+    </div>
+</section>
+
+
+<section class="about-section">
+
+    <div class="container about-content">
+
+        <div>
+            <p class="section-label">OUR PURPOSE</p>
+
+            <h2>One System for the Entire Clinic</h2>
+        </div>
+
+        <div>
+            <p>
+                Smart Clinic brings doctors, receptionists and
+                patients together in one centralized system.
+            </p>
+
+            <p>
+                The system is designed to manage appointments,
+                patient information, medical records, prescriptions
+                and doctor availability.
+            </p>
+
+            <p>
+                Instead of maintaining disconnected information,
+                clinic staff can manage their daily activities
+                through one organized platform.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="why-section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <p class="section-label">OUR APPROACH</p>
+
+            <h2>Built Around Better Patient Care</h2>
+
+            <p>
+                Good clinic management should reduce administrative
+                work, not create more of it.
+            </p>
+        </div>
+
+        <div class="feature-grid">
+
+            <div class="feature-item">
+                <h3>Organized Information</h3>
+
+                <p>
+                    Patient and appointment information can be
+                    managed from a centralized system.
+                </p>
+            </div>
+
+            <div class="feature-item">
+                <h3>Efficient Workflow</h3>
+
+                <p>
+                    Doctors and receptionists can manage their
+                    responsibilities without unnecessary paperwork.
+                </p>
+            </div>
+
+            <div class="feature-item">
+                <h3>Secure Access</h3>
+
+                <p>
+                    Different users will receive access according
+                    to their role and responsibilities.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="cta-section">
+
+    <div class="container cta-content">
+
+        <h2>Better Management. Better Care.</h2>
+
+        <p>
+            Smart Clinic provides a centralized foundation
+            for managing everyday clinic operations.
+        </p>
+
+        <a href="{% url 'contact' %}" class="btn btn-light">
+            Contact Us
+        </a>
+
+    </div>
+
+</section>
+
+{% endblock %}
